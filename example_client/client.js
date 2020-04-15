@@ -1,8 +1,8 @@
 const io = require('socket.io-client');
-const socket = io('http://lyricsgenerator.didithilmy.com:8080');
+const socket = io('https://lyricsgenerator.didithilmy.com');
 
 const seedText = "Hello world this is me";
-const numGen = 10;
+const numGen = 100;
 const replyId = "predict:a";
 
 socket.emit('predict', seedText, numGen, replyId);
