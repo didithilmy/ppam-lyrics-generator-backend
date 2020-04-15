@@ -1,5 +1,6 @@
 Flask
-tensorflow
+tensorflow==2.0.0b1
 keras
 numpy
 flask-socketio
+gunicorn
